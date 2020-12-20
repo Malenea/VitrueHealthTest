@@ -58,6 +58,7 @@ for it. Those tests being:
   - Unit test on an invalid palindrome without invalid characters
   - Unit test on a valid palindrome with invalid characters
   - Unit test on an invalid palindrome with invalid characters
+
 . Performance:
   - Unit test on a short valid palindrome
   - Unit test on a long valid palindrome
