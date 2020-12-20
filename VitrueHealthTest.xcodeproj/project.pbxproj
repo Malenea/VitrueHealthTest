@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D1DB55D258E5D3300AD5E35 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1DB55C258E5D3300AD5E35 /* Palindrome.swift */; };
+		6D1DB562258E5F9500AD5E35 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1DB561258E5F9500AD5E35 /* UIView+Extensions.swift */; };
+		6D1DB56C258E67DB00AD5E35 /* VitrueHealthTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1DB56B258E67DB00AD5E35 /* VitrueHealthTestTests.swift */; };
+		6D1DB583258E6D7900AD5E35 /* VitrueHealthTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1DB582258E6D7900AD5E35 /* VitrueHealthTestUITests.swift */; };
+		FAE973302528DE01007B685E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9732F2528DE01007B685E /* AppDelegate.swift */; };
+		FAE973342528DE01007B685E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE973332528DE01007B685E /* ViewController.swift */; };
+		FAE973392528DE03007B685E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE973382528DE03007B685E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D1DB56E258E67DB00AD5E35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE973242528DE01007B685E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE9732B2528DE01007B685E;
+			remoteInfo = VitrueHealthTest;
+		};
+		6D1DB585258E6D7A00AD5E35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE973242528DE01007B685E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE9732B2528DE01007B685E;
+			remoteInfo = VitrueHealthTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D1DB55C258E5D3300AD5E35 /* Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrome.swift; sourceTree = "<group>"; };
+		6D1DB561258E5F9500AD5E35 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		6D1DB569258E67DB00AD5E35 /* VitrueHealthTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VitrueHealthTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D1DB56B258E67DB00AD5E35 /* VitrueHealthTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitrueHealthTestTests.swift; sourceTree = "<group>"; };
+		6D1DB56D258E67DB00AD5E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D1DB580258E6D7900AD5E35 /* VitrueHealthTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VitrueHealthTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D1DB582258E6D7900AD5E35 /* VitrueHealthTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitrueHealthTestUITests.swift; sourceTree = "<group>"; };
+		6D1DB584258E6D7A00AD5E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE9732C2528DE01007B685E /* VitrueHealthTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VitrueHealthTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE9732F2528DE01007B685E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAE973332528DE01007B685E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAE973382528DE03007B685E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAE9733D2528DE03007B685E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D1DB566258E67DB00AD5E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D1DB57D258E6D7900AD5E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE973292528DE01007B685E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D1DB55B258E5D1600AD5E35 /* Palindrome */ = {
+			isa = PBXGroup;
+			children = (
+				6D1DB55C258E5D3300AD5E35 /* Palindrome.swift */,
+			);
+			path = Palindrome;
+			sourceTree = "<group>";
+		};
+		6D1DB560258E5F7E00AD5E35 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6D1DB561258E5F9500AD5E35 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6D1DB56A258E67DB00AD5E35 /* VitrueHealthTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D1DB56B258E67DB00AD5E35 /* VitrueHealthTestTests.swift */,
+				6D1DB56D258E67DB00AD5E35 /* Info.plist */,
+			);
+			path = VitrueHealthTestTests;
+			sourceTree = "<group>";
+		};
+		6D1DB581258E6D7900AD5E35 /* VitrueHealthTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D1DB582258E6D7900AD5E35 /* VitrueHealthTestUITests.swift */,
+				6D1DB584258E6D7A00AD5E35 /* Info.plist */,
+			);
+			path = VitrueHealthTestUITests;
+			sourceTree = "<group>";
+		};
+		FAE973232528DE01007B685E = {
+			isa = PBXGroup;
+			children = (
+				FAE9732E2528DE01007B685E /* VitrueHealthTest */,
+				6D1DB56A258E67DB00AD5E35 /* VitrueHealthTestTests */,
+				6D1DB581258E6D7900AD5E35 /* VitrueHealthTestUITests */,
+				FAE9732D2528DE01007B685E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE9732D2528DE01007B685E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE9732C2528DE01007B685E /* VitrueHealthTest.app */,
+				6D1DB569258E67DB00AD5E35 /* VitrueHealthTestTests.xctest */,
+				6D1DB580258E6D7900AD5E35 /* VitrueHealthTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE9732E2528DE01007B685E /* VitrueHealthTest */ = {
+			isa = PBXGroup;
+			children = (
+				6D1DB560258E5F7E00AD5E35 /* Extensions */,
+				6D1DB55B258E5D1600AD5E35 /* Palindrome */,
+				FAE9732F2528DE01007B685E /* AppDelegate.swift */,
+				FAE973332528DE01007B685E /* ViewController.swift */,
+				FAE973382528DE03007B685E /* Assets.xcassets */,
+				FAE9733D2528DE03007B685E /* Info.plist */,
+			);
+			path = VitrueHealthTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D1DB568258E67DB00AD5E35 /* VitrueHealthTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D1DB570258E67DB00AD5E35 /* Build configuration list for PBXNativeTarget "VitrueHealthTestTests" */;
+			buildPhases = (
+				6D1DB565258E67DB00AD5E35 /* Sources */,
+				6D1DB566258E67DB00AD5E35 /* Frameworks */,
+				6D1DB567258E67DB00AD5E35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D1DB56F258E67DB00AD5E35 /* PBXTargetDependency */,
+			);
+			name = VitrueHealthTestTests;
+			productName = VitrueHealthTestTests;
+			productReference = 6D1DB569258E67DB00AD5E35 /* VitrueHealthTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D1DB57F258E6D7900AD5E35 /* VitrueHealthTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D1DB587258E6D7A00AD5E35 /* Build configuration list for PBXNativeTarget "VitrueHealthTestUITests" */;
+			buildPhases = (
+				6D1DB57C258E6D7900AD5E35 /* Sources */,
+				6D1DB57D258E6D7900AD5E35 /* Frameworks */,
+				6D1DB57E258E6D7900AD5E35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D1DB586258E6D7A00AD5E35 /* PBXTargetDependency */,
+			);
+			name = VitrueHealthTestUITests;
+			productName = VitrueHealthTestUITests;
+			productReference = 6D1DB580258E6D7900AD5E35 /* VitrueHealthTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FAE9732B2528DE01007B685E /* VitrueHealthTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE973402528DE03007B685E /* Build configuration list for PBXNativeTarget "VitrueHealthTest" */;
+			buildPhases = (
+				FAE973282528DE01007B685E /* Sources */,
+				FAE973292528DE01007B685E /* Frameworks */,
+				FAE9732A2528DE01007B685E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VitrueHealthTest;
+			productName = CARVTest;
+			productReference = FAE9732C2528DE01007B685E /* VitrueHealthTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE973242528DE01007B685E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = OlivierConan;
+				TargetAttributes = {
+					6D1DB568258E67DB00AD5E35 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = FAE9732B2528DE01007B685E;
+					};
+					6D1DB57F258E6D7900AD5E35 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = FAE9732B2528DE01007B685E;
+					};
+					FAE9732B2528DE01007B685E = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = FAE973272528DE01007B685E /* Build configuration list for PBXProject "VitrueHealthTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE973232528DE01007B685E;
+			productRefGroup = FAE9732D2528DE01007B685E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE9732B2528DE01007B685E /* VitrueHealthTest */,
+				6D1DB568258E67DB00AD5E35 /* VitrueHealthTestTests */,
+				6D1DB57F258E6D7900AD5E35 /* VitrueHealthTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D1DB567258E67DB00AD5E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D1DB57E258E6D7900AD5E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE9732A2528DE01007B685E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE973392528DE03007B685E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D1DB565258E67DB00AD5E35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1DB56C258E67DB00AD5E35 /* VitrueHealthTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D1DB57C258E6D7900AD5E35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1DB583258E6D7900AD5E35 /* VitrueHealthTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE973282528DE01007B685E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE973342528DE01007B685E /* ViewController.swift in Sources */,
+				6D1DB55D258E5D3300AD5E35 /* Palindrome.swift in Sources */,
+				6D1DB562258E5F9500AD5E35 /* UIView+Extensions.swift in Sources */,
+				FAE973302528DE01007B685E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D1DB56F258E67DB00AD5E35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE9732B2528DE01007B685E /* VitrueHealthTest */;
+			targetProxy = 6D1DB56E258E67DB00AD5E35 /* PBXContainerItemProxy */;
+		};
+		6D1DB586258E6D7A00AD5E35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE9732B2528DE01007B685E /* VitrueHealthTest */;
+			targetProxy = 6D1DB585258E6D7A00AD5E35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6D1DB571258E67DB00AD5E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTM675777B;
+				INFOPLIST_FILE = VitrueHealthTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OlivierConan.VitrueHealthTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VitrueHealthTest.app/VitrueHealthTest";
+			};
+			name = Debug;
+		};
+		6D1DB572258E67DB00AD5E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTM675777B;
+				INFOPLIST_FILE = VitrueHealthTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OlivierConan.VitrueHealthTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VitrueHealthTest.app/VitrueHealthTest";
+			};
+			name = Release;
+		};
+		6D1DB588258E6D7A00AD5E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTM675777B;
+				INFOPLIST_FILE = VitrueHealthTestUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OlivierConan.VitrueHealthTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VitrueHealthTest;
+			};
+			name = Debug;
+		};
+		6D1DB589258E6D7A00AD5E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTM675777B;
+				INFOPLIST_FILE = VitrueHealthTestUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OlivierConan.VitrueHealthTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VitrueHealthTest;
+			};
+			name = Release;
+		};
+		FAE9733E2528DE03007B685E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAE9733F2528DE03007B685E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE973412528DE03007B685E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7N6DNZNQPD;
+				INFOPLIST_FILE = VitrueHealthTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitruehealthtest.olivierconan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAE973422528DE03007B685E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7N6DNZNQPD;
+				INFOPLIST_FILE = VitrueHealthTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitruehealthtest.olivierconan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D1DB570258E67DB00AD5E35 /* Build configuration list for PBXNativeTarget "VitrueHealthTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D1DB571258E67DB00AD5E35 /* Debug */,
+				6D1DB572258E67DB00AD5E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D1DB587258E6D7A00AD5E35 /* Build configuration list for PBXNativeTarget "VitrueHealthTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D1DB588258E6D7A00AD5E35 /* Debug */,
+				6D1DB589258E6D7A00AD5E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE973272528DE01007B685E /* Build configuration list for PBXProject "VitrueHealthTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE9733E2528DE03007B685E /* Debug */,
+				FAE9733F2528DE03007B685E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE973402528DE03007B685E /* Build configuration list for PBXNativeTarget "VitrueHealthTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE973412528DE03007B685E /* Debug */,
+				FAE973422528DE03007B685E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE973242528DE01007B685E /* Project object */;
+}
