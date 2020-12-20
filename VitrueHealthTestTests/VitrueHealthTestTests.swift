@@ -19,23 +19,23 @@ class VitrueHealthTestTests: XCTestCase {
 
     // MARK: - Functionning tests
     func testValidPalindrome() throws {
-        let validLongPalindrome = "tattarrattat"
-        XCTAssertTrue(Palindrome.isThisPalindrome(validLongPalindrome))
+        let validPalindrome = "tattarrattat"
+        XCTAssertTrue(Palindrome.isThisPalindrome(validPalindrome))
     }
     
     func testInvalidPalindrome() throws {
-        let validLongPalindrome = "tattarrattat but not that much"
-        XCTAssertFalse(Palindrome.isThisPalindrome(validLongPalindrome))
+        let invalidPalindrome = "tattarrattat but not that much"
+        XCTAssertFalse(Palindrome.isThisPalindrome(invalidPalindrome))
     }
     
     func testValidPalindromeWithInvalidCharacters() throws {
-        let validLongPalindrome = "\t\ttatt()(*&arrattat  *()(@^"
-        XCTAssertTrue(Palindrome.isThisPalindrome(validLongPalindrome))
+        let validPalindrome = "\t\ttatt()(*&arrattat  *()(@^"
+        XCTAssertTrue(Palindrome.isThisPalindrome(validPalindrome))
     }
     
     func testInvalidPalindromeWithInvalidCharacters() throws {
-        let validLongPalindrome = "tattarrattat \t but &%_ not that much"
-        XCTAssertFalse(Palindrome.isThisPalindrome(validLongPalindrome))
+        let invalidPalindrome = "tattarrattat \t but &%_ not that much"
+        XCTAssertFalse(Palindrome.isThisPalindrome(invalidPalindrome))
     }
 
     // MARK: - Performance tests
